@@ -1,0 +1,5 @@
+preenchimento de dados vazios
+
+moda para atributos "string"
+
+media ou mediana para atributos numéricos (mediana caso o valor seja inteiro)
