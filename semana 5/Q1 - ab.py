@@ -45,4 +45,4 @@ df['guardianFather'] = df['guardian'].map(collections.defaultdict(lambda: 0, { '
 df['guardianOther'] = df['guardian'].map(collections.defaultdict(lambda: 0, { 'other': 1}))
 del df['guardian']
 
-df.to_csv('./resultado.csv', sep=';', index=False)
+df.to_csv('./student-matResultado.csv', sep=';', index=False)

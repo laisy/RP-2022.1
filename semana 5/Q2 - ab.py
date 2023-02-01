@@ -16,4 +16,4 @@ df['day'] = df['day'].map({
 
 df['area'] = np.log(df.area + 1)
 
-df.to_csv('Resultado.csv',sep=';', index=False)
+df.to_csv('forestfiresResultado.csv',sep=';', index=False)
