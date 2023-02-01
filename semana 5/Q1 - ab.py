@@ -1,7 +1,7 @@
 import pandas as pd
 import collections
 
-df = pd.read_csv('./student-por.csv', sep=';')
+df = pd.read_csv('./student-mat.csv', sep=';')
 
 #binario nominal
 

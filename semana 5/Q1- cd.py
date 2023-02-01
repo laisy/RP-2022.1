@@ -3,7 +3,7 @@ import numpy as np
 from sklearn.model_selection import train_test_split
 from sklearn.neighbors import  KNeighborsRegressor
 
-df = pd.read_csv('./resultado.csv', sep=';')
+df = pd.read_csv('./student-matResultado.csv', sep=';')
 acc1 = []
 acc2 = []
 target = df.pop("G3")
