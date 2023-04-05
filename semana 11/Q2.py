@@ -12,7 +12,7 @@ def limiar(img):
         mb = np.mean(b)
         T = (ma + mb) / 2
         T0 = T
-    lm,nImg = cv2.threshold(img,T0,255, cv2.THRESH_BINARY) 
+    Im,nImg = cv2.threshold(img,T0,255, cv2.THRESH_BINARY) 
     return nImg
 
 img = cv2.imread(r'C:\Users\David\Desktop\imagens\Fig1038(a)(noisy_fingerprint).png', cv2.IMREAD_GRAYSCALE)
